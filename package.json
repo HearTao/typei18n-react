@@ -1,0 +1,44 @@
+{
+  "name": "typei18n-react",
+  "version": "1.0.1",
+  "description": "react provider for typei18n",
+  "scripts": {
+    "dev": "webpack --config ./tests/webpack.config.js",
+    "build": "webpack --config ./webpack.config.js",
+    "prettier": "prettier --config ./prettier.json --write ./src/*.ts ./src/**/*.ts ./src/**/*.tsx ./tests/*.ts ./tests/**/*.ts ./tests/**/*.tsx"
+  },
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "src",
+    "lib",
+    "LICENSE",
+    "tsconfig.json",
+    "package.json",
+    "README.md"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.3",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react-dom": "^16.8.6",
+    "ts-loader": "^5.3.3",
+    "typei18n": "^1.0.5",
+    "mock-require": "^3.0.3",
+    "prettier": "^1.16.4",
+    "typei18n-plugin": "^1.0.0",
+    "typescript": "^3.4.3",
+    "webpack": "^4.29.6",
+    "webpack-merge": "^4.2.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

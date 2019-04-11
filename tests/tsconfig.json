@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "./lib",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "plugins": [
+      {
+        "name": "typei18n-plugin",
+        "options": {
+          "moduleName": "i18n",
+          "locales": "./locales",
+          "filePath": "./locales/index.d.ts"
+        }
+      }
+    ]
+  }
+}
